@@ -173,7 +173,7 @@ class Game:
         self.level = 1
         self.stars = 0
 
-        self.app = pygame.display.set_mode((WIDTH, HEIGHT))
+        self.app = pygame.display.set_mode((WIDTH, HEIGHT), pygame.DOUBLEBUF)
         pygame.display.set_caption(self.TITLE)
         pygame.display.set_icon(LOGO)
 
@@ -472,7 +472,7 @@ class Game:
                     self.coins_handler.write_new(self.coins)
                     stop_executing()
             self.clock.tick(FPS)
-            pygame.display.update()
+            pygame.display.flip()
             if len(self.world.enemy_data) > 0:
                 for enemy in self.world.enemy_data:
                     if enemy.out_of_lives:
