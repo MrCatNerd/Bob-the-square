@@ -17,12 +17,10 @@ class Tile:
 
         self.tag = tag
 
-    def update(self, window):
+        self.three_d_duplications = 20
 
-        window.blit(
-            self.img,
-            self.rect,
-        )
+    def update(self, window):
+        window.blit(self.img, self.rect)
         # pygame.draw.rect(
         # window,
         # (255, 255, 255),
