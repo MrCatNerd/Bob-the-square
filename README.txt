@@ -15,7 +15,7 @@ right flag to bring you home(yea the flag is a portal to another dimention)
 good luck!
 
 how to play:
-so its basicly normal platformer but when you dash you jump also and its more intresting and fun but simple
+so its basicly normal platformer but when you dash you also shoot and its more intresting and fun but simple
 
 if you dont understand that then that is what platformer + new stuff that i added its very simple
 
