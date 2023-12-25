@@ -2,29 +2,11 @@ __author__ = "Alon B.R."
 
 import pygame
 import os
-import math
-import random
 import threading
 import time
 
 from vector2 import Vector2
-from settings import (
-    TILE_SIZE,
-    WIDTH,
-    HEIGHT,
-    TITLE,
-    FONT_SIZE,
-    FONT,
-    FPS,
-    dt,
-    BG_COLOR,
-    ANTI_ALIASING,
-    GIANT_FONT,
-    GIANT_FONT_SIZE,
-    MIDIUM_FONT,
-    MIDIUM_FONT_SIZE,
-    LOGO,
-)
+from settings import *
 from player import Player
 from button import Button
 from tile import Tile

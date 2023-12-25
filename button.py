@@ -1,7 +1,6 @@
 __author__ = "Alon B.R."
 
 import pygame
-from settings import WIDTH, HEIGHT
 
 pygame.init()
 
